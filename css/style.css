@@ -27,12 +27,74 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  padding: 1rem;
+  font-family: 'Source Code Pro', sans-serif;
 }
-img{
+
+.body {
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  border-radius: 30px;
+  display: flexbox;
+}
+
+header h1 {
+  text-align: center;
+  font-family: 'Monoton', sans-serif;
+  font-size: 4rem;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+input {
+  display: flex;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.display-driver {
+  margin: 20px;
+  background: rgba(255, 255, 255, 0.4);
+  margin: auto;
+  width: 75%;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+img {
   display: block;
   margin: 0 auto;
 }
 
+.driver-name {
+  text-align: center;
+  margin: 0;
+  font-style: italic;
+}
+
+.team-name {
+  letter-spacing: 5px;
+  text-align: center;
+  margin: 0;
+}
+
+.hide {
+  display: none;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
